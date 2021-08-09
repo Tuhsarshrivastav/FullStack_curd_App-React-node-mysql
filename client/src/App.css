@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.app {
+  text-align: center;
+  background: #f1f1f1;
+  height: 100vh;
+  overflow-y: scroll;
+  display: grid;
+  place-items: center;
+
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form input {
+  width: 300px;
+  height: 35px;
+  margin: 10px;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+}
+.form button {
+  background-color: white;
+  border: none;
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 20%;
+  cursor: pointer;
+}
+.card {
+  width: 500px;
+  height: 100px;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#update {
+  width: 100px;
+  height: 30px;
+}
